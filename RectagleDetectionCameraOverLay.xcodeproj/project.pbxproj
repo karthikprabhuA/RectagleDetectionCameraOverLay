@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC94910621FA6A570058F88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94910521FA6A570058F88C /* AppDelegate.swift */; };
+		CC94910821FA6A570058F88C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94910721FA6A570058F88C /* ViewController.swift */; };
+		CC94910B21FA6A570058F88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC94910921FA6A570058F88C /* Main.storyboard */; };
+		CC94910D21FA6A590058F88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC94910C21FA6A590058F88C /* Assets.xcassets */; };
+		CC94911021FA6A590058F88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC94910E21FA6A590058F88C /* LaunchScreen.storyboard */; };
+		CC94911B21FA6A590058F88C /* RectagleDetectionCameraOverLayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94911A21FA6A590058F88C /* RectagleDetectionCameraOverLayTests.swift */; };
+		CC94912621FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94912521FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC94911721FA6A590058F88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9490FA21FA6A570058F88C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC94910121FA6A570058F88C;
+			remoteInfo = RectagleDetectionCameraOverLay;
+		};
+		CC94912221FA6A590058F88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9490FA21FA6A570058F88C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC94910121FA6A570058F88C;
+			remoteInfo = RectagleDetectionCameraOverLay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC94910221FA6A570058F88C /* RectagleDetectionCameraOverLay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectagleDetectionCameraOverLay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC94910521FA6A570058F88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC94910721FA6A570058F88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC94910A21FA6A570058F88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC94910C21FA6A590058F88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC94910F21FA6A590058F88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC94911121FA6A590058F88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC94911621FA6A590058F88C /* RectagleDetectionCameraOverLayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectagleDetectionCameraOverLayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC94911A21FA6A590058F88C /* RectagleDetectionCameraOverLayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectagleDetectionCameraOverLayTests.swift; sourceTree = "<group>"; };
+		CC94911C21FA6A590058F88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC94912121FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectagleDetectionCameraOverLayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC94912521FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectagleDetectionCameraOverLayUITests.swift; sourceTree = "<group>"; };
+		CC94912721FA6A590058F88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9490FF21FA6A570058F88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911321FA6A590058F88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911E21FA6A590058F88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9490F921FA6A570058F88C = {
+			isa = PBXGroup;
+			children = (
+				CC94910421FA6A570058F88C /* RectagleDetectionCameraOverLay */,
+				CC94911921FA6A590058F88C /* RectagleDetectionCameraOverLayTests */,
+				CC94912421FA6A590058F88C /* RectagleDetectionCameraOverLayUITests */,
+				CC94910321FA6A570058F88C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC94910321FA6A570058F88C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC94910221FA6A570058F88C /* RectagleDetectionCameraOverLay.app */,
+				CC94911621FA6A590058F88C /* RectagleDetectionCameraOverLayTests.xctest */,
+				CC94912121FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC94910421FA6A570058F88C /* RectagleDetectionCameraOverLay */ = {
+			isa = PBXGroup;
+			children = (
+				CC94910521FA6A570058F88C /* AppDelegate.swift */,
+				CC94910721FA6A570058F88C /* ViewController.swift */,
+				CC94910921FA6A570058F88C /* Main.storyboard */,
+				CC94910C21FA6A590058F88C /* Assets.xcassets */,
+				CC94910E21FA6A590058F88C /* LaunchScreen.storyboard */,
+				CC94911121FA6A590058F88C /* Info.plist */,
+			);
+			path = RectagleDetectionCameraOverLay;
+			sourceTree = "<group>";
+		};
+		CC94911921FA6A590058F88C /* RectagleDetectionCameraOverLayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC94911A21FA6A590058F88C /* RectagleDetectionCameraOverLayTests.swift */,
+				CC94911C21FA6A590058F88C /* Info.plist */,
+			);
+			path = RectagleDetectionCameraOverLayTests;
+			sourceTree = "<group>";
+		};
+		CC94912421FA6A590058F88C /* RectagleDetectionCameraOverLayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC94912521FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.swift */,
+				CC94912721FA6A590058F88C /* Info.plist */,
+			);
+			path = RectagleDetectionCameraOverLayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC94910121FA6A570058F88C /* RectagleDetectionCameraOverLay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC94912A21FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLay" */;
+			buildPhases = (
+				CC9490FE21FA6A570058F88C /* Sources */,
+				CC9490FF21FA6A570058F88C /* Frameworks */,
+				CC94910021FA6A570058F88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectagleDetectionCameraOverLay;
+			productName = RectagleDetectionCameraOverLay;
+			productReference = CC94910221FA6A570058F88C /* RectagleDetectionCameraOverLay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC94911521FA6A590058F88C /* RectagleDetectionCameraOverLayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC94912D21FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLayTests" */;
+			buildPhases = (
+				CC94911221FA6A590058F88C /* Sources */,
+				CC94911321FA6A590058F88C /* Frameworks */,
+				CC94911421FA6A590058F88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC94911821FA6A590058F88C /* PBXTargetDependency */,
+			);
+			name = RectagleDetectionCameraOverLayTests;
+			productName = RectagleDetectionCameraOverLayTests;
+			productReference = CC94911621FA6A590058F88C /* RectagleDetectionCameraOverLayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC94912021FA6A590058F88C /* RectagleDetectionCameraOverLayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC94913021FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLayUITests" */;
+			buildPhases = (
+				CC94911D21FA6A590058F88C /* Sources */,
+				CC94911E21FA6A590058F88C /* Frameworks */,
+				CC94911F21FA6A590058F88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC94912321FA6A590058F88C /* PBXTargetDependency */,
+			);
+			name = RectagleDetectionCameraOverLayUITests;
+			productName = RectagleDetectionCameraOverLayUITests;
+			productReference = CC94912121FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9490FA21FA6A570058F88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kpalagu;
+				TargetAttributes = {
+					CC94910121FA6A570058F88C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CC94911521FA6A590058F88C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC94910121FA6A570058F88C;
+					};
+					CC94912021FA6A590058F88C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC94910121FA6A570058F88C;
+					};
+				};
+			};
+			buildConfigurationList = CC9490FD21FA6A570058F88C /* Build configuration list for PBXProject "RectagleDetectionCameraOverLay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9490F921FA6A570058F88C;
+			productRefGroup = CC94910321FA6A570058F88C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC94910121FA6A570058F88C /* RectagleDetectionCameraOverLay */,
+				CC94911521FA6A590058F88C /* RectagleDetectionCameraOverLayTests */,
+				CC94912021FA6A590058F88C /* RectagleDetectionCameraOverLayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC94910021FA6A570058F88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC94911021FA6A590058F88C /* LaunchScreen.storyboard in Resources */,
+				CC94910D21FA6A590058F88C /* Assets.xcassets in Resources */,
+				CC94910B21FA6A570058F88C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911421FA6A590058F88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911F21FA6A590058F88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9490FE21FA6A570058F88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC94910821FA6A570058F88C /* ViewController.swift in Sources */,
+				CC94910621FA6A570058F88C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911221FA6A590058F88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC94911B21FA6A590058F88C /* RectagleDetectionCameraOverLayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC94911D21FA6A590058F88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC94912621FA6A590058F88C /* RectagleDetectionCameraOverLayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC94911821FA6A590058F88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC94910121FA6A570058F88C /* RectagleDetectionCameraOverLay */;
+			targetProxy = CC94911721FA6A590058F88C /* PBXContainerItemProxy */;
+		};
+		CC94912321FA6A590058F88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC94910121FA6A570058F88C /* RectagleDetectionCameraOverLay */;
+			targetProxy = CC94912221FA6A590058F88C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC94910921FA6A570058F88C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC94910A21FA6A570058F88C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC94910E21FA6A590058F88C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC94910F21FA6A590058F88C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC94912821FA6A590058F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC94912921FA6A590058F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC94912B21FA6A590058F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC94912C21FA6A590058F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC94912E21FA6A590058F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectagleDetectionCameraOverLay.app/RectagleDetectionCameraOverLay";
+			};
+			name = Debug;
+		};
+		CC94912F21FA6A590058F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectagleDetectionCameraOverLay.app/RectagleDetectionCameraOverLay";
+			};
+			name = Release;
+		};
+		CC94913121FA6A590058F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RectagleDetectionCameraOverLay;
+			};
+			name = Debug;
+		};
+		CC94913221FA6A590058F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUR3Z68664;
+				INFOPLIST_FILE = RectagleDetectionCameraOverLayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kpalagu.RectagleDetectionCameraOverLayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RectagleDetectionCameraOverLay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9490FD21FA6A570058F88C /* Build configuration list for PBXProject "RectagleDetectionCameraOverLay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC94912821FA6A590058F88C /* Debug */,
+				CC94912921FA6A590058F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC94912A21FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC94912B21FA6A590058F88C /* Debug */,
+				CC94912C21FA6A590058F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC94912D21FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC94912E21FA6A590058F88C /* Debug */,
+				CC94912F21FA6A590058F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC94913021FA6A590058F88C /* Build configuration list for PBXNativeTarget "RectagleDetectionCameraOverLayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC94913121FA6A590058F88C /* Debug */,
+				CC94913221FA6A590058F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9490FA21FA6A570058F88C /* Project object */;
+}
