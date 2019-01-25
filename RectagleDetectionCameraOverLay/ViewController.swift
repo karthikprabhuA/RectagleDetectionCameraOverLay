@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var rootLayer: CALayer! = nil
     private var detectionOverlay: CALayer! = nil
     @IBOutlet weak var cameraView: UIView!
+    @available(iOS 11.0, *)
     lazy var rectanglesRequest: VNDetectRectanglesRequest = {
         let request = VNDetectRectanglesRequest(completionHandler: self.handleRectangles)
         return request
@@ -103,21 +104,36 @@ class ViewController: UIViewController {
 
 extension ViewController : AVCaptureVideoDataOutputSampleBufferDelegate {
     public func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer)!
-        let exifOrientation = exifOrientationFromDeviceOrientation()
-        let handler = VNImageRequestHandler(cvPixelBuffer: imageBuffer, orientation: exifOrientation, options: [:])
-        DispatchQueue.global(qos: .userInteractive).async {
-            do {
-                try handler.perform([self.rectanglesRequest])
-            } catch {
-                print(error)
+        if #available(iOS 11.0, *) {
+            imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer)!
+            let exifOrientation = exifOrientationFromDeviceOrientation()
+            
+            let handler = VNImageRequestHandler(cvPixelBuffer: imageBuffer, orientation: exifOrientation, options: [:])
+            DispatchQueue.global(qos: .userInteractive).async {
+                do {
+                    try handler.perform([self.rectanglesRequest])
+                } catch {
+                    print(error)
+                }
             }
+        }
+        else {
+            cIDetectorRect(CIImage(cvImageBuffer: imageBuffer))
         }
     }
 }
 
+
 //MARK: VISION Framework
 extension ViewController {
+    
+    func cIDetectorRect(_ image:CIImage) {
+        let detector = CIDetector(ofType: CIDetectorTypeRectangle, context: nil, options: [CIDetectorAccuracy:CIDetectorTypeRectangle])
+        if let rectangles = detector?.features(in: image), let rect = rectangles.first?.bounds {
+                displayRect(for: rect)
+        }
+    }
+    
     func displayRect(for boundingBox: CGRect) {
         CATransaction.begin()
         CATransaction.setValue(kCFBooleanTrue, forKey: kCATransactionDisableActions)
@@ -126,7 +142,10 @@ extension ViewController {
             let path = UIBezierPath(rect: boundingBox)
             let layer = CAShapeLayer()
             layer.path = path.cgPath
+            layer.lineWidth = 2.0
+            layer.borderWidth = 2.0
             layer.fillRule = CAShapeLayerFillRule.evenOdd
+            layer.strokeColor = UIColor.green.cgColor
             layer.fillColor = UIColor.red.withAlphaComponent(0.2).cgColor
             self?.detectionOverlay?.addSublayer(layer)
             self?.updateLayerGeometry()
@@ -134,6 +153,7 @@ extension ViewController {
         }
     }
     
+    @available(iOS 11.0, *)
     func handleRectangles(request: VNRequest, error: Error?) {
         guard let observations = request.results as? [VNRectangleObservation]
             else { fatalError("unexpected result type from VNDetectRectanglesRequest") }
